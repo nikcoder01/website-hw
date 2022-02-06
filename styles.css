@@ -1,0 +1,119 @@
+*
+{
+    background-color: rgb(250, 228, 237);
+}
+html{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+body{
+    margin: 0px;
+}
+header h1{
+    color: rgb(2, 2, 66);
+     font-size:larger;
+     position: relative;
+     top: 0.6rem;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    margin: 0 3rem;
+    border: 0;
+}
+ul{
+    display: flex;
+    justify-content: space-around;
+    position: relative;
+    right:1.7rem
+}
+nav{
+    position: relative;
+    right: 1rem;
+        width: 28rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+li{
+    list-style:none;  /*to remove bullets around list items */
+    font-size: 1rem;
+    padding: 0.8rem;
+}
+a{
+    text-decoration: none;
+    color: rgb(193, 45, 230);
+}
+a:hover
+{
+    color: rgb(2, 2, 66);
+}
+.btn{
+    background: rgb(193, 45, 160);
+    border-radius: 4px;
+    padding: 7px 7px;
+    text-decoration: none;
+    color: white;
+    border: 1px solid transparent;
+    transition: all 0.4s ease;
+    margin-right: 1rem;
+    position: relative;
+    right:1rem
+}
+.btn:hover{
+    background: transparent;
+    color: rgb(193, 45, 160);
+    border: 1px solid rgb(193, 45, 160);
+}
+article
+{
+    position: relative;
+    bottom: 2rem;
+    display: inline-block;
+    margin-left: 8%;
+    margin-top: 10%;
+}
+
+#the-one{
+    margin-left: 1rem;
+}
+article h1{
+    font-size: 40px;
+    color: rgb(2, 2, 66);
+}
+article h1 span{
+    color: rgb(193, 45, 160);
+    text-decoration: underline
+    ;
+}
+article p{
+    font-weight: 600;
+    color: rgb(2, 2, 66);
+    line-height: 22px;
+    margin-top: 10px;
+    margin-bottom: 30px;
+}
+section{
+    position: relative;
+    bottom: 2rem;
+    display: flex;
+    margin: 7.3rem;
+}
+.pc
+{
+   width: 32vw;
+   height: 32vw;
+   
+
+}
+img{
+    border-top: 10px solid rgb(2, 2, 66);
+   border-right: 10px solid rgb(193, 45, 160);
+   border-left: 10px solid rgb(193, 45, 160);
+   border-bottom: 10px solid rgb(2, 2, 66);
+   border-radius: 250px;
+   transition: all 1s ease-in;
+
+}
+div{
+    display: flex;
+}
